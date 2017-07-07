@@ -1,0 +1,152 @@
+#search_q{
+	height: 30px;
+}
+#wrapper{
+	width: 85%;
+	margin: auto;
+	padding: 0;
+}
+#leftBar{
+	width: 200px;
+	height: calc(100vh - 172px);
+	border-right: 1px solid rgba(230,230,230,0.9);
+	border-left: 1px solid rgba(230,230,230,0.9);
+	background-color: rgba(245,245,245,0.9);
+	padding: 20px 0;
+	float: left;
+}
+#leftBar #studentImage{
+	min-height: 170px;
+	width: 100%;
+	border-bottom: 1px solid rgba(230,230,230,0.9);
+}
+#leftBar #studentImage #image{
+	width: 120px;
+	height: 135px;
+	margin: auto;
+}
+#leftBar #studentImage #image img{
+	width: 100%;
+	height: 100%;
+	padding: 3px;
+	border: 1px solid rgba(172,172,172,0.4);
+}
+#leftBar #studentImage #studentDetails{
+	text-align: center;
+    padding: 7px 5px;
+    font-weight: bold;
+    color: rgb(240, 88, 98);
+}
+#tabsStudent{
+	padding: 0;
+}
+#tabsStudent .tabStudentInfo{
+	padding: 7px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 1px 0;
+    background-color: rgba(49, 112, 143, 0.23);
+}
+#tabsStudent .tabStudentInfo:hover{
+	background-color: #31708f;
+    color: #fff;
+}
+#tabsStudent .tabStudent{
+	background-color: #31708f;
+    color: #fff;
+}
+#rightBar{
+	width: calc(100% - 203px);
+	min-height: calc(100vh - 172px);
+	padding: 20px 0;
+	float: right;
+	border-right: 1px solid rgba(230,230,230,0.9);
+}
+.tab-content{
+	display: none;
+}
+.basicInfo{
+	display: block;
+}
+.basicInfo #title{
+	font-size: 1.3em;
+    color: #428bca;
+}
+.basicInfo #title .AboutunderLine{
+	height: 2px;
+	width: 30px;
+	background-color: blue;
+	margin-left: 10px;
+	margin-top: -3px;
+}
+.basicInfo .main-details{
+	padding-top: 25px;
+}
+.basicInfo .main-details #left-half{
+	padding: 0;
+}
+.buttons{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	display: inline-block;
+	z-index: 5;
+}
+.buttons.update-btn{
+	display: none;	
+}
+.main-details .rightHalf{
+	border-left: 1px solid rgba(102,102,102,0.1);
+}
+.InfoLabelDiv{
+	padding-left: 0px;
+}
+.InfoTextDiv{
+	padding-left: 0px;
+}
+.InfoTextDiv i.fa{
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding-left: 5px;
+	color: silver;
+}
+.main-details .leftHalf{
+
+}
+.main-details .rightHalf{
+
+}
+.basicInfo .main-details #right-half{
+	padding: 0;
+}
+.basicInfo .main-details .details{
+	padding: 3px 10px;
+    font-size: 0.9em;
+}
+.basicInfo .main-details .details span.titleLabel{
+	font-size: 15px;
+	font-weight: 500;
+    color: #31708F;
+}
+.basicInfo .main-details .details span.contentDetail{
+	margin-left: 0px;
+    font-size: 13px;
+    border: 1px solid transparent;
+    padding: 3px 10px;
+    width: 100%;
+}
+.border-edit-box{
+    border: 1px solid #ddd !important;
+}
+.smsStudent, .emailStudent{
+	display: inline-block;
+	float: right;
+    font-size: 13px;
+    margin-top: -13px;
+    margin-right: 10px;
+}
+.smsStudent{
+	margin-right: 106px;
+	margin-top: -13px;
+}

@@ -1,0 +1,418 @@
+
+
+#tap{
+	height:40px;
+	width:85%;
+	margin:auto;
+	background-color:white;
+	}
+.tap_inside{
+	height:40px;
+	width:50%;
+	float:left;
+	background-color:white;
+	}
+.tap_inside #content{
+	height:40px;
+	width:60%;
+	background-color:white;
+	float:left;
+	font-size:18px;
+	line-height:30px;
+	font-weight:300px;
+	text-align:right;
+	}
+.tap_inside #text{
+	height:40px;
+	width:27%;
+	float:left;
+	line-height:30px;
+	text-indent:0px;
+	background-color:white;
+}
+.tap_inside #button{
+	height:40px;
+	//width:13%;
+	background-color:white;
+	float:left;
+	text-align:left;
+	line-height:30px;
+	}
+.tap_inside #button input{
+	text-indent:2px;
+	}
+	
+#main_div{	
+	height:580px;
+	width:85%;
+	margin:auto;
+	background-color:white;
+	border-top:5px solid #CCC;
+	text-align:center;
+}
+.both{
+	height:580px;
+	width:49.9%;
+	background-color:white;
+	float:left;
+}
+#photo_name{
+	height:150px;
+	width:100%;
+	background-color:white;
+}
+#photo_name #left{
+	height:150px;
+	width:40%;
+	background-color:white;
+	float:left;
+	}
+#photo_name #left #photo{
+	height:140px;
+	width:140px;
+	float:right;
+	margin-top:10px;
+	background-image:url(../img/defaultphoto.gif); background-size:140px 140px;
+}
+#photo_name #right{
+	height:100px;
+	width:60%;
+	background-color:white;
+	float:left;
+	text-align:center;
+	margin-top:50px;
+	font-size:28px;
+	font-weight:600;
+}
+.both #bar{
+	height:80px;
+	width:100%;
+	text-align:center;
+	font-size:26px;
+	color:rgba(0,102,255,1);
+	line-height:70px;
+	background-color:white;
+}
+#basic_details{
+	padding:20px 0 0 0;
+	height:330px;
+	width:100%;
+	background-color:white;
+}
+#basic_details .one{
+	height:27px;
+	width:100%;
+	background-color:white;
+	margin-top:5px;
+	}
+.one .lable{
+	height:27px;
+	width:37%;
+	background-color:white;
+	float:left;
+	font-family: arial;
+	text-indent:22px;
+	line-height:24px;
+	}
+.one strong{
+	height:27px;
+	width:3%;
+	font-family: arail;
+	font-size:25px;
+	line-height:21px;
+	font-weight:400px;
+	float:left;
+}
+.one .content_fetch{
+	height:27px;
+	width:60%;
+	float:left;
+	font-family: arial;
+	text-indent:20px;
+	line-height:24px;
+	font-size:15px;
+	}
+#middle_border{
+	height:520px;
+	width:2px;
+	background-color:silver;
+	float:left;
+	margin-top:30px;
+}
+.next #bar{
+	height:50px;
+	width:100%;
+	text-align:center;
+	font-size:26px;
+	line-height:40px;
+	color:rgba(0,102,255,1);
+	background-color:white;
+	}
+.next #payment_detail{
+	height:160px;
+	width:100%;
+	background-color:white;
+	padding:10px 0 0 0;
+	}
+#payment_detail .one{
+	height:27px;
+	width:100%;
+	background-color:white;
+	margin-top:10px;
+}
+#payment_detail .one .lable{
+	height:27px;
+	width:45%;
+	background-color:white;
+	float:left;
+	font-family: arial;
+	text-indent: 140px;
+	line-height:24px;
+	}
+#payment_detail .one strong{
+	height:27px;
+	width:3%;
+	font-family: arail;
+	font-size:25px;
+	line-height:21px;
+	font-weight:400px;
+	background-color:white;
+	text-indent:3px;
+	float:left;
+}
+.pay_detailEntry{
+	height:27px;
+	width:52%;
+	float:left;
+	background-color:white;
+}
+.pay_detailEntry input{
+	height:20px;
+	width:70%;
+	margin-top:2px;
+	border-radius:3px;
+	border:1px solid silver;
+	text-indent:4px;
+}
+#payMode{
+	height:40px;
+	width:100%;
+	margin-top:20px;
+	text-align:center;
+	font-size:26px;
+	font-weight:bold;
+	line-height:30px;
+	color:rgba(51,51,51,1);
+	background-color:white;
+	}
+#cash_panel{
+	height:150px;
+	width:33%;
+	background-color:white;
+	float:left;
+}
+#cash_panel .oneline{
+	height:27px;
+	width:100%;
+	background-color:white;
+}
+#cash_panel .oneline #cashcheck{
+	height:27px;
+	width:60%;
+	background-color:white;
+	margin:auto;
+	font-family:arial;
+	font-family:16px;
+	line-height:27px;
+}
+#cash_panel .oneline #cashcheck #check{
+	height:27px;
+	width:50%;
+	background-color:white;
+	float:right;
+}
+#cash_panel .oneline #cashcheck #check input{
+	height:20px;
+	width:42%;
+	text-indent:5px;
+}
+#cash_panel .oneline .fifty_fifty{
+	height:27px; 
+	width:50%;
+	float:left;
+	background-color:white !important;
+}
+#cash_panel .oneline #cash_text{
+	font-family:arial;
+	font-size:16px;
+	line-height:27px;
+	text-indent:30px;
+}
+/*#cash_panel .oneline #enter_amount #cash_amount{
+	height: 20px;
+	width: 90%;
+	float: right;
+	border-radius: 3px;
+	//border: 1px solid rgba(51,51,51,1);
+	background-color: silver;
+	margin: 0;
+	margin-top: 3px;
+	float: left;
+}*/
+#cash_panel  #enter_amount #cash_amount input{
+	height: 17px;
+	width: 90.2%;
+	margin: 0;
+	border-radius: 3px;
+	border: 1px solid silver;
+	text-indent:5px;
+}
+
+#amount_divline{
+	height:100px;
+	width:2px;
+	margin-top:10px;
+	background-color:#CCC;
+	float:left;
+}
+#dd_panel{
+	min-height:150px;
+	height:auto;
+	width:66.5%;
+	background-color:white;
+	float:left;
+	padding-bottom:1px;
+}
+#dd_panel .oneline{
+	height:27px;
+	width:100%;
+	background-color:white;
+}
+#dd_panel .oneline #no_of_dd{
+	height:30px;
+	width:30%;
+	background-color:white;
+	float:right;
+}
+/*#no_dd{
+	margin:0;
+	height:21px;
+	width:70%;
+	margin-top:3px;
+	border-radius:3px;
+	background-color:#ccc;
+	//border:1px solid rgba(102,102,102,1);
+	}*/
+#no_dd input{
+	height:17px;
+	width:90.2%;
+	margin:0;
+	margin-right: 13px;
+	border-radius:3px;
+	border:1px solid silver;
+	//display:none;
+	text-indent:5px;
+}
+#dd_work{
+	height:30px;
+	width:40%;
+	background-color:white;
+	float:right;
+	font-family:arial;
+	font-family:16px;
+	line-height:25px;
+}
+#dd_work #dd{
+	height:30px;
+	width:55%;
+	float:right;
+	background-color:white;
+}
+#dd_work #dd input{
+	height:20px;
+	width:40%;
+	border-radius:3px;
+	margin-top:0px;
+	text-indent:5px;
+	}
+#dd_panel .single_line{
+	height:27px;
+	width:100%;
+	background-color:white;
+	margin-top:15px;
+}
+.single_line .fifty_fifty{
+	height:27px;
+	width:50%;
+	background-color:white;
+	float:left;
+	}
+.single_line .dd .left{
+	height:27px;
+	width:37%;
+	background-color:white;
+	float:left;
+	font-family:arial;
+	font-size:16px;
+	text-indent:5px;
+	line-height:27px;
+}
+
+.single_line .dd .right{
+	height:27px;
+	width:63%;
+	background-color:white;
+	float:left;
+}
+/*.single_line .right .ddinput{
+	height:20px;
+	width:73%;
+	float:right;
+	border-radius:3px;
+	//border:1px solid rgba(51,51,51,1);
+	background-color:silver;
+	margin:0;
+	margin-top:3px;
+	float:left;
+}*/
+.single_line .right .ddinput input{
+	height:17px;
+	width:90.2%;
+	margin:0;
+	margin-right: 13px;
+	text-indent:5px;
+	border-radius:3px;
+	border:1px solid silver;
+}
+/*#cash_amount input{
+	display:none;
+	}*/
+#DD_2,#DD_3,#DD_4{
+	display:none;
+}
+
+#submit{
+	height:40px;
+	width:100%;
+	background-color:white;
+	text-align:center;
+	margin-top:220px;	
+}
+#Subm input{
+	height:40px;
+	width:25%;
+	background-color:#003d4c;
+	font-size:20px;
+	border-radius:5px;
+	color:white;
+}
+#Subm input:hover{
+	background-color:rgba(51,51,102,1);
+}
+
+.message{
+	display: none;
+}
+
+
+

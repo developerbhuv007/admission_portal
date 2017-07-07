@@ -1,0 +1,72 @@
+
+
+#dropboxes{
+	height:40px;
+	width:85%;
+	margin:auto;
+	background-color:white;
+	padding:10px 0 0 0 ;}
+	
+.threeparts{
+	height:40px;
+	width:33.3%;
+	background-color:white;
+	float:left;
+	
+	}
+.content{
+	height:40px;
+	width:55%;
+	float:left;
+	font-size:18px;
+	text-align:right;
+	line-height:30px;
+	font-weight:bold;
+	}
+.dropdown{
+	height:40px;
+	width:45%;
+	float:left;
+	text-align:left;
+	line-height:30px;
+	text-indent:6px;
+}
+
+#strong2{
+	height:30px;
+	width:85%;
+	margin:auto;
+	background-color:white;
+	text-align:center;
+	line-height:30px;
+}
+
+#get_records{
+	
+	min-height:20px;
+	height:auto;
+	width:85%;
+	margin:auto;
+	text-align:center;
+	background-color:white;
+	
+}
+
+table tr th{
+  background-color: black;
+  color: white;
+  text-align: center;
+    font-size: 16px;
+}
+
+table tr td{
+    font-size: 16px;
+}
+
+  table tr:nth-child(odd){
+   background-color: rgb(245,245,245);
+  }
+
+  #search_q{
+  	height: 30px !important;
+  }

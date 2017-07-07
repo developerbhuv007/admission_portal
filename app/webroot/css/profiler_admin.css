@@ -1,0 +1,39 @@
+#department-selector{
+	display: none;
+}
+#search_q{
+	height: 30px;
+}
+#wrapper{
+	width: 85%;
+	margin: auto;
+	padding: 25px 0;
+}
+#records-table, #records-table-staff{
+	padding-top: 30px;
+	padding-left: 0;
+	padding-right: 0;
+}
+#records-table-staff{
+	display: none;
+}
+.smsStudent, .emailStudent{
+	display: inline-block;
+}
+.smsStaff, .emailStaff{
+	display: none;
+}
+table thead tr{
+	color: #fff;
+    background-color: rgba(6, 35, 60, 0.79);
+    border: 1px solid rgb(17, 29, 39);
+}
+table tbody{
+	border: 1px solid rgba(220,220,220,0.9);
+}
+table tbody tr:nth-child(odd) td{
+	background-color: rgba(250,250,250,0.9);
+}
+table tbody tr:nth-child(even) td{
+	background-color: rgba(230,230,230,0.9);
+}

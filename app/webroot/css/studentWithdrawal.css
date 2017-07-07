@@ -1,0 +1,18 @@
+.wrapper{
+	//background-color: red;
+	width: 85%;
+    margin-left: 102px;
+    height: 460px;
+}
+
+.withdrawalform{
+	//background-color: blue;
+	width: 45%;
+    margin: auto;
+    height: 100%;
+        margin-top: 80px;
+}
+
+#search_q{
+	height:30px !important;
+}

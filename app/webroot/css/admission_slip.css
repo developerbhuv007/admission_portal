@@ -1,0 +1,425 @@
+#slip_no_div{
+	height:20px; width:21cm;
+	text-align:center; font-family:arail; font-size:16px; margin:auto; font-weight:bold;
+}
+#body{
+	height:28cm; width:21cm; border:1px solid black; margin:auto;
+}
+#Second_body{
+	height:28cm; width:21cm;  margin:auto;margin-top:90px;
+}
+.head {
+height: 149px;
+width:99.6%;
+margin:auto;
+margin-top:1px;
+background-image:url(../img/gkv.png);
+background-size: 98% 149px;
+}
+#payment_slip_div{
+	height:50px; width:21cm; line-height:50px;
+	text-align:center; font-size:20px; font-family:arail; margin:auto; font-weight:bold;
+}
+#both_div{
+	height:296px;
+	width:100%;
+}
+#document_list .content_documentNot{
+	min-height: 20px;
+  height: auto;
+  border: 1px solid black;
+  padding: 3px 3px 3px 3px;
+}
+#both_div #left{
+	height:296px;
+	width:55%;
+	float:left;
+}
+#both_div #left .one_line{
+	height:27px;
+	width:100%;
+	margin-top:10px;
+	color: black;
+}
+#both_div #left .one_line .label{
+	height:27px;
+	width:45%;
+	line-height:33px;
+	font-family:arail;
+	font-size:16px;
+	font-weight:bold;
+	color: black;
+	text-indent:15px;
+	float:left;
+}
+#both_div #left .one_line .strong{
+	height:27px;
+	width:3%;
+	line-height:27px;
+	text-indent:5px;
+	font-family:arail;
+	font-size:24px;
+	font-weight:bold;
+	float:left;
+}
+#both_div #left .one_line .text{
+	height:27px;
+	width:52%;
+	line-height:30px;
+	font-family:arail;
+	font-size:16px;
+	float:left;
+	text-indent:15px;
+}
+#both_div #right{
+	height:296px;
+	width:45%;
+	float:right;
+}
+#document_list{
+	height:324px;
+	width:93%; 
+	//border:1px solid black;
+}
+#document_list #tab{
+	height:20px;
+	width:100%;
+	font-family:arail;
+	font-size:16px;
+	font-weight:bold;
+	text-indent:20px;
+	padding-bottom: 10px;
+}
+#document_list .oneline{
+	height:20px;
+	width:100%;
+	font-family:arail;
+	font-size:16px;
+	line-height:20px;
+	text-indent:3px;
+}
+#document_list .content{
+	height:20px;
+	width:92%;
+	font-family:arail;
+	line-height:20px;
+	text-indent:3px;
+	float:right;
+	background-color:white;
+}
+#right #fee_details{
+	min-height:250px;
+	height:auto;
+	max-height:350px;
+	width:93%;
+	border:1px solid black;
+}
+#right #fee_details .one_line{
+	height:27px;
+	width:100%;
+	margin-top:10px;
+	text-align:center;
+	font-weight:bold;
+}
+#right #fee_details .one_line2{
+	height:27px;
+	width:100%;
+	margin-top:0px;
+}
+#right #fee_details .one_line2 .label{
+	height:27px;
+	width:49%;
+	line-height:27px;
+	font-family:arail;
+	font-size:14px;
+	font-weight:bold;
+	text-indent:25px;
+	float:left;
+}
+#right #fee_details .one_line2 .strong{
+	height:27px;
+	width:5%;
+	line-height:27px;
+	text-indent:5px;
+	font-family:arail;
+	font-size:24px;
+	font-weight:bold;
+	float:left;
+}
+#right #fee_details .one_line2 .text{
+	height:27px;
+	width:46%;
+	line-height:27px;
+	text-indent:5px;
+	font-family:arail;
+	font-size:14px;
+	float:left;
+}
+#dd_plus_amount{
+	height:140px;
+	width:100%;
+}
+#dd_plus_amount .fifty{
+	height:140px;
+	width:50%;
+	float:left;
+}
+#dd_plus_amount .fifty .dd_no{
+	height:27px;
+	width:100%;
+	margin-top:1px;
+	font-family:arail;
+	font-size:14px;
+	line-height:27px;
+	text-align:center;
+}
+#dd_plus_amount .fifty .dd_amount{
+	height:27px;
+	width:100%;
+	margin-top:1px;
+	font-family:arail;
+	font-size:14px;
+	line-height:27px;
+	text-align:center;
+}
+#dd_plus_amount .fifty .common{
+	font-size:16px;
+	font-weight:bold;
+}
+#ddwithcash{
+	height:23px;
+	width:100%;
+	margin-top:10px;
+}
+#ddwithcash .fifity{
+	height:23px;
+	width:50%;
+	float:left;
+	font-family:arail;
+	font-size:16px;
+	text-align:center;
+}
+#signature{
+	height:55px;
+	width:100%;
+	margin-top:70px;
+}
+.big_one{
+	height:25px;
+	width:100%;
+}
+.big_one .three_div{
+	height:25px;
+	width:33.3%;
+	line-height:25px;
+	float:left;
+	text-align:center;
+	font-size:14px;
+}
+#two_condition{
+	height:80px;
+	width:100%;
+	margin-top:40px;
+}
+#two_condition .one_Line{
+	height:35px;
+	width:100%;
+}
+#two_condition .one_Line .noodcondtion{
+	height:35px;
+	width:4%;
+	line-height:35px;
+	text-indent:10px;
+	float:left;
+}
+#two_condition .one_Line .content{
+	height:35px;
+	width:96%;
+	font-family:arail;
+	font-size:13px;
+	float:left;
+}
+#div_horizontel_line{
+	height:2px;
+	width:95%;
+	margin:auto;
+	background-color:#CCC;
+	margin-top:10px;
+}
+#head{
+	height:20px;
+	width:100%;
+	font-family:arail;
+	font-size:15px;
+	margin-top:10px;
+	font-weight:bold;
+	text-align:center;
+}
+#lower_first_condition{
+	height:35px;
+	width:100%;
+	margin-top:10px;
+}
+#ONE_left{
+	height:35px;
+	width:4%;
+	float:left;
+	line-height:35px;
+	text-align:center;
+}
+#ONE_right{
+	height:35px;
+	width:96%;
+	font-family:arail;
+	font-size:13px;
+	float:left;
+}
+.ONE_LINE{
+	height:35px;
+	width:100%;
+	margin-top:5px;
+}
+.ONE_LINE .LEFT{
+	height:35px;
+	width:4%;
+	float:left;
+	line-height:35px;
+	text-align:center;
+}
+.ONE_LINE .RIGHT{
+	height:35px;
+	width:96%;
+	float:left;
+	font-family:arail;
+	font-size:13px;
+}
+.last_lower{
+	height:30px;
+	width:100%;
+	margin-top:20px;
+}
+.last_lower .fifty{
+	height:30px;
+	width:50%;
+	line-height:30px;
+	float:left;
+}
+#last_lower2{
+	height:30px;
+	width:100%;
+}
+#last_lower2 .fifty{
+	height:30px;
+	width:50%;
+	line-height:30px;
+	float:left;
+}
+
+#Second_body .bothdiv{
+	min-height: 230px;
+	height: auto;
+	//background-color: red;
+	width: 100%;
+}
+#Second_body .bothdiv .left{
+	//background-color: green;
+	min-height: 230px;
+	height: auto;
+	width: 16cm;
+	float: left;
+	padding-top: 40px;
+}
+#Second_body .bothdiv .right{
+	//background-color: tan;
+	min-height: 230px;
+	height: auto;
+	width: 16cm;
+	float: left;
+	width: 5cm;
+	font-size: 18px;
+	padding-top: 40px;
+}
+#Second_body .bothdiv .left .studentName{
+	padding: 3px 25px 3px 15px;
+	font-size: 18px;
+	min-height: 10px;
+	height: auto;
+	max-height: 48px;
+}
+#Second_body .bothdiv .left .span_Name{
+	text-transform: capitalize !important;
+
+}
+#Second_body .conrg{
+	min-height: 10px;
+	height: auto;
+	//background-color: red;
+	padding: 20px 25px 20px 25px;
+	font-size: 16px;
+}
+#Second_body .firstText{
+	min-height: 10px;
+	height: auto;
+	//background-color: green;
+	padding: 20px 25px 20px 25px;
+	font-size: 16px;
+	text-align: justify;
+}
+#Second_body  .branch{
+	min-height: 10px;
+	height: auto;
+	//background-color: red;
+	padding: 30px 40px 10px 40px;
+	font-size: 18px;
+}
+#Second_body  .yeardiv{
+	min-height: 10px;
+	height: auto;
+	//background-color: red;
+	padding: 20px 45px 20px 45px;
+	font-size: 18px;
+}
+#Second_body  .yeardiv .whichYear{
+	width: 30%;
+	//background-color: red;
+	float: left;
+}
+#Second_body  .yeardiv .yearText{
+	width: 45%;
+	//background-color: green;
+	float: left;
+}
+#Second_body  .yeardiv .yearFees{
+	width: 25%;
+	//background-color: yellow;
+	float: left;
+}
+ #Second_body .seconfText{
+	min-height: 10px;
+	height: auto;
+	//background-color: green;
+	padding: 20px 25px 20px 25px;
+	font-size: 16px;
+	text-align: justify;
+}
+#Second_body .thirdText{
+	min-height: 10px;
+	height: auto;
+	//background-color: green;
+	padding: 10px 25px 20px 25px;
+	font-size: 16px;
+	text-align: justify;
+}
+#Second_body .signaturediv{
+	//background-color: tan;
+	text-align: right;
+	padding: 50px 25px 20px 25px;
+}
+#Second_body .signaturediv .convener{
+	float: right;
+	width: 21cm;
+}
+#Second_body .signaturediv .convener1{
+	float: right;
+	width: 21cm;
+}

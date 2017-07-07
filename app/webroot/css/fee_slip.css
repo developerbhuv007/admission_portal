@@ -1,0 +1,269 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+*{
+	font-family: sans-serif;
+}
+body #wrapper{
+	height: 690.228347px;
+	width:1171.653543px;
+	border: 1px solid black;
+}
+#wrapper .eachBigDiv{
+	height: 690.228347px;
+	width: 268.346457px;
+	border-right: 1px solid rgba(102,102,102,0.3);;
+	float: left;
+}
+#wrapper .faltuDiv{
+	height: 690.228347px;
+	width: 30.4px;
+	/*width: 34.015748px;*/
+	border-right: 1px solid rgba(102,102,102,0.3);
+	float: left;
+}
+.eachBigDiv .eachContactDiv{
+	height: 13.11811px;
+	width:100%;
+	font-size: 0.7em;
+	line-height: 14px;
+}
+.eachBigDiv .collegeName{
+	height: 15.897638px;
+	width: 100%;
+	font-size: 0.8em;
+	font-weight: 600;
+    line-height: 16px;
+}
+.eachBigDiv .collegeBranch{
+	height: 11.5px;
+    width: 100%;
+    font-size: 0.7em;
+    line-height: 11px;
+}
+.eachBigDiv .text-feedeposite{
+	height: 15.11811px;
+	width: 100%;
+	font-size: 0.7em;
+	line-height: 15px;
+}
+.eachBigDiv .eachInTwo{
+	height: 13.228346px;
+	width:100%;
+}
+.eachInTwo .text-receptNumber{
+	height: 13.228346px;
+	width: 37%;
+	font-size: 12px;
+    line-height: 14px;
+    text-indent: 15px;
+    float: left;
+}
+.eachInTwo .receptNumber{
+	height: 13.228346px;
+	width: 62%;
+	font-size: 12px;
+    line-height: 14px;
+    text-indent: 5px;
+    font-weight: 600;
+    float: left;
+}
+.eachBigDiv .fee_date{
+	height: 14.787402px;
+	width: 100%;
+	font-weight: 600;
+    font-size: 0.7em;
+    line-height: 16px;
+}
+.eachBigDiv .text-bank{
+	/*height: 36.795276px;
+	width: 100%;
+	font-size: 0.7em;
+	margin-top: 1px;
+	line-height: 16px*/
+	height: 22.795276px;
+    width: 100%;
+    font-size: 0.7em;
+    margin-top: 1px;
+    line-height: 10px;
+}
+.eachBigDiv .text-bank span{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.eachBigDiv .pnbAccountTwoDiv{
+	height: 18.677165px;
+	width:100%;
+	font-size: 14px;
+    line-height: 22px;
+}
+.pnbAccountTwoDiv .text-pnbNo{
+	height: 18.677165px;
+    width: 25%;
+    text-indent: 5px;
+    float: left;
+}
+.pnbAccountTwoDiv .accountNo{
+	height: 18.677165px;
+	width: 74%;
+    text-indent: 5px;
+    font-weight: 600;
+    float: left;
+}
+.eachBigDiv .relateTobankTwoDiv{
+	height: 18.897638px;
+	width:100%;
+	font-size: 11px;
+    line-height: 17px;
+}
+.relateTobankTwoDiv .branchGKbank{
+	height: 18.897638px;
+	width: 49%;
+	float: left;
+}
+.relateTobankTwoDiv .branchGKbankCode{
+	height: 18.897638px;
+	width: 50%;
+	float: left;
+}
+.eachBigDiv .labelfiledTwoDiv{
+	height: 15.11811px;
+	width:100%;
+	line-height: 15px;
+	font-size: 10px;
+}
+.labelfiledTwoDiv .label{
+	height: 15.11811px;
+	width: 26%;
+	float: left;
+	text-indent: 2px;
+}
+.labelfiledTwoDiv .filed{
+	height: 15.11811px;
+	width: 73%;
+	font-weight: 600;
+	text-indent: 2px;
+	float: left;
+}
+.eachBigDiv .text-feeStructure{
+	height: 17.001874px;
+	width: 100%;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 19px;
+}
+.eachBigDiv .feeStructureTwoDiv{
+	height: 17.001874px;
+	width:100%;
+	font-size: 11px;
+	line-height: 17px;
+}
+.feeStructureTwoDiv .feeStructureLabel{
+	height: 17.001874px;
+	width:61%;
+	text-indent: 2px;
+	float: left;
+}
+.feeStructureTwoDiv .feeStructureAmount{
+	height: 17.001874px;
+	width: 38%;
+	float: left;
+}
+.eachBigDiv .text-amountInWords{
+	height: 16.677165px;
+	width: 100%;
+	text-indent: 2px;
+    font-size: 11px;
+    padding-top: 1px;
+    line-height: 18px;
+}
+.eachBigDiv .amountInWords{
+	height: 22.677165px;
+	width: 100%;
+	text-indent: 2px;
+    font-size: 11px;
+    line-height: 20px
+}
+.eachBigDiv .aboutDD{
+	height: 53.692913px;
+	width: 100%;
+}
+.eachBigDiv .signature{
+	height: 44.472441px;
+	width: 100%;
+}
+.signature .indivfree{
+	height: 28px;
+	width: 100%;
+}
+.signature .authorisedSignature{
+	height: 17px;
+	width: 49%;
+	float:left;
+	text-indent: 4px;
+	font-size: 13px;
+}
+.signature .studentSignature{
+	height: 17px;
+	width: 50%;
+	float: left;
+	text-indent: 15px;
+	font-size: 13px;
+}
+.eachBigDiv .text-bankUse{
+	height: 15.007874px;
+	width: 100%;
+	font-size: 13px;
+	line-height: 15px;
+}
+.eachBigDiv .textTwoLabelFiled{
+	height: 24.015748px;
+	width: 100%;
+	font-size: 13px;
+	line-height: 24px;
+	text-indent: 5px;
+}
+.textTwoLabelFiled .textLabel{
+	height: 24.015748px;
+	width: 35%;
+	float: left;
+}
+.textTwoLabelFiled .textFiled{
+	height: 24.015748px;
+	width: 64%;
+	float: left;
+}
+.eachBigDiv .sealsTwoDiv{
+	height: 35px;
+	width: 100%;
+}
+.sealsTwoDiv .sealDivinfreespace{
+	height: 28px;
+	width: 100%;
+}
+.sealsTwoDiv .SEAL{
+	height: 17px;
+	width: 49%;
+	float: left;
+	text-indent: 18px;
+}
+.sealsTwoDiv .BankManagerSEAL{
+	height: 17px;
+	width: 50%;
+	float: left;
+	text-indent: 18px;
+}
+span.right{
+	float: right;
+	margin-right: 5px;
+}
+.borderRight{
+	border-right: 1px solid rgba(102,102,102,0.3);
+}
+.eachBigDiv .borderBottom{
+	border-bottom: 1px solid rgba(102,102,102,0.3);
+}
+.eachBigDiv .textCenter{
+	text-align: center;
+}

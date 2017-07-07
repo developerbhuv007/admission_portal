@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	background-color: white;
+	width: 1132px;
+	margin: auto;
+	min-height: 430px;
+	padding: 15px 15px 15px 15px;
+}
+.main .heading{
+	width: 100%;
+	text-align: center;
+}
+.main .heading strong{
+	border-bottom: 1px solid black;
+}
+.main .tablediv{
+	width: 100%;
+	padding: 15px 0 15px 0;
+}
+.main .tablediv table{
+	margin: auto;
+}
+.main .tablediv table {
+    border-collapse: collapse;
+    margin: auto;
+}
+.main .tablediv table tr th,td{
+	padding: 2px 4px 2px 4px;
+}
+.main .tablediv table tr td .migarte-btn{
+	text-align: center;
+	padding: 5px 0 5px 0;
+}
+.main .tablediv table tr td .migarte-btn button{
+	background-color: white;
+	padding: 2px 3px;
+	border-radius: 3px;
+	border: 1px solid gray;
+	cursor: pointer;
+}

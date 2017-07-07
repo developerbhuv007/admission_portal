@@ -1,0 +1,74 @@
+.multiSelectOptions label.selectAll{
+	display: none !important;
+}
+.multiSelectOptions label{
+	text-align: left !Important;
+}
+
+#strong{
+	height:60px;
+	width:85%;
+	margin:auto;
+	background-color:white;
+}
+#strong_left{
+	height:40px;
+	width:54%;
+	background-color:white;
+	float:left;
+}
+#strong_right{
+	height:40px;
+	width:46%;
+	background-color:white;
+	float:left;
+	}
+.drop_down{
+	height:40px;
+	width:33.3%;
+	background-color:white;
+	float:left;
+	text-align:center;
+	padding:10px 0 0 0;
+	}
+.drop_down {
+	height:50px;
+	width:33%;
+	}
+#strong_right .button{
+	height:40px;
+	width:33.3%;
+	background-color:white;
+	float:left;
+	text-align:center;
+	padding:10px 0 0 0;
+	}
+#strong2{
+	height:30px;
+	width:85%;
+	margin:auto;
+	background-color:white;
+	text-align:center;
+	line-height:30px;
+}
+#get_records{
+	min-height:380px;
+	height:auto;
+	width:85%;
+	margin:auto;
+	text-align:center;
+	background-color:white;
+}
+select{
+	padding: 4px;
+}
+
+table tr th{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+  table tr:nth-child(odd){
+   background-color: rgb(245,245,245);
+  }
